@@ -9,11 +9,9 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-    ​​ich bin hier, um dir zu helfen, dich an Dinge zu erinnern, die dir gerade schwerfallen zu greifen. 
-    Bitte erzähle mir etwas über das, was dir 'auf der Zunge liegt'. 
-    Ich werde dir einige Fragen stellen, um dir zu helfen, deine Gedanken zu klären. 
-    Deine Antworten werden mir helfen, präzisere Fragen zu formulieren, die den Nebel um deine flüchtigen Erinnerungen lichten sollen.
-    Lass uns gemeinsam herausfinden, woran du denkst.
+    ​​Dieser Chatbot wurde entwickelt, um zu untersuchen, wie offene und geschlossene Fragen den Erinnerungsprozess beeinflussen können. 
+Der Bot wird verschiedene Arten von Fragen stellen, um zu analysieren, welche Methode effektiver ist, um Erinnerungen zu unterstützen und zu verbessern. 
+Ziel ist es, durch gezielte Gesprächsführung und spezifische Fragestellungen den Erinnerungsprozess der Nutzer effizient zu fördern. 
 """
 
 my_instance_context = """
